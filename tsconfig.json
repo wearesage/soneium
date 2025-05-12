@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": "./dist",
+    "declaration": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false
+  },
+  "include": ["src/**/*", "demo/account-abstraction-demo.ts", "demo/send-transaction-demo.ts", "demo/testnet-demo.ts"],
+  "exclude": ["node_modules", "dist"]
+}
